@@ -125,6 +125,7 @@ class TranslatorClient
         $languages = Arr::mapWithKeys($languages, function ($item, $key) {
             return [$item['name'] => $item['code']];
         });
+
         return  array_flip($languages);
     }
 
