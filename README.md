@@ -4,7 +4,7 @@ Public
 This package provides an easy way to automatically generate language files in a Laravel project using the Google Translate API. It simplifies the process of translating your application into multiple languages by automating the generation of language files based on your source language files.
 
 [![Tests](https://github.com/proshore/laravel-translation-generator/actions/workflows/test.yml/badge.svg)](https://github.com/proshore/laravel-translation-generator/actions/workflows/test.yml)
-[![Analyze](https://github.com/proshore/laravel-translation-generator/actions/workflows/analyse.yml/badge.svg)](https://github.com/proshore/laravel-translation-generator/actions/workflows/analyze.yml)
+[![Analyze](https://github.com/proshore/laravel-translation-generator/actions/workflows/analyse.yml/badge.svg)](https://github.com/proshore/laravel-translation-generator/actions/workflows/analyse.yml)
 
 ## Installation
 
