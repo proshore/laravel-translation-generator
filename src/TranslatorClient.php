@@ -116,7 +116,7 @@ class TranslatorClient
     }
 
     /**
-     * @return array
+     * @return array<string,string>
      * @throws ServiceException
      */
     public function languages(): array
@@ -125,8 +125,7 @@ class TranslatorClient
         $languages = Arr::mapWithKeys($languages, function ($item, $key) {
             return [$item['name'] => $item['code']];
         });
-
-        return  array_flip($languages);
+        return array_flip($languages); // @phpstan-ignore-line
     }
 
 
